@@ -21,7 +21,7 @@
 Since there are a few job queue solutions, here a table comparing them to help you use the one that
 better suits your needs.
 
-Agenda is great if you need something that is simple and backed by MongoDB.
+Agenda is great if you need something that is simple and backed by DynamoDB.
 
 | Feature         | Bull          | Kue   | Bee | Agenda | Agenda AWS |
 | :-------------  |:-------------:|:-----:|:---:|:------:|:----------:|
@@ -48,7 +48,7 @@ Install via NPM
 
     npm install aws-agenda
 
-You will also need a working [AWS](https://aws.amazon.com/) account witg access to a dynamodb database.
+You will also need a working [AWS](https://aws.amazon.com/) account with access to a dynamodb database.
 
 
 # Example Usage
