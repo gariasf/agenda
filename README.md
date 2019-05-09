@@ -25,7 +25,7 @@ Agenda is great if you need something that is simple and backed by DynamoDB.
 
 | Feature         | Bull          | Kue   | Bee | Agenda | Agenda AWS |
 | :-------------  |:-------------:|:-----:|:---:|:------:|:----------:|
-| Backend         | redis         | redis |redis| mongo  | DynamoDB   |
+| Backend         | redis         | redis |redis| mongo  | dynamodb   |
 | Priorities      | ✓             |  ✓    |     |   ✓    |           |
 | Concurrency     | ✓             |  ✓    |  ✓  |   ✓    |   ✓       |
 | Delayed jobs    | ✓             |  ✓    |     |   ✓    |   ✓       |
