@@ -27,7 +27,7 @@ Agenda is great if you need something that is simple and backed by DynamoDB.
 | :-------------  |:-------------:|:-----:|:---:|:------:|:----------:|
 | Backend         | redis         | redis |redis| mongo  | DynamoDB   |
 | Priorities      | ✓             |  ✓    |     |   ✓    |           |
-| Concurrency     | ✓             |  ✓    |  ✓  |   ✓    |           |
+| Concurrency     | ✓             |  ✓    |  ✓  |   ✓    |   ✓       |
 | Delayed jobs    | ✓             |  ✓    |     |   ✓    |   ✓       |
 | Global events   | ✓             |  ✓    |     |        |           |
 | Rate Limiter    | ✓             |       |     |        |            |
