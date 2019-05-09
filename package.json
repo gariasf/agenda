@@ -10,12 +10,8 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "test": "npm run lint && npm run mocha",
+    "test": "npm run lint",
     "lint": "xo --verbose",
-    "mocha": "mocha --reporter spec --timeout 8000 -b",
-    "mocha-debug": "DEBUG=agenda:**,-agenda:internal:** mocha --reporter spec --timeout 8000 -b",
-    "mocha-debug-internal": "DEBUG=agenda:internal:** mocha --reporter spec --timeout 8000 -b",
-    "mocha-debug-all": "DEBUG=agenda:** mocha --reporter spec --timeout 8000 -b",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
@@ -24,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/agenda/agenda"
+    "url": "git://github.com/gariasf/aws-agenda"
   },
   "keywords": [
     "job",
@@ -34,11 +30,11 @@
     "scheduler",
     "runner"
   ],
-  "author": "Guillem Aria <hello@gariasf.com> (https://gariasf.com/)",
+  "author": "Guillem Arias <hello@gariasf.com> (https://gariasf.com/)",
   "contributors": ["Ryan Schmukler <ryan@slingingcode.com> (http://slingingcode.com/)"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agenda/agenda/issues"
+    "url": "https://github.com/gariasf/aws-agenda/issues"
   },
   "dependencies": {
     "aws-sdk": "^2.447.0",
