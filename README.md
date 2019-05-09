@@ -10,7 +10,7 @@
 
 # Aws-agenda offers
 
-- Minimal overhead. Agenda aims to keep its code base small.
+- Minimal overhead. aws-agenda aims to keep its code base small.
 - DynamoDB backed persistence layer.
 - Promises based API.
 - Scheduling.
@@ -21,7 +21,7 @@
 Since there are a few job queue solutions, here a table comparing them to help you use the one that
 better suits your needs.
 
-Agenda is great if you need something that is simple and backed by DynamoDB.
+Aws-agenda is great if you need something that is simple and backed by DynamoDB.
 
 | Feature         | Bull          | Kue   | Bee | Agenda | Agenda AWS |
 | :-------------  |:-------------:|:-----:|:---:|:------:|:----------:|
