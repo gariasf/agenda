@@ -55,9 +55,9 @@ You will also need a working [AWS](https://aws.amazon.com/) account with access 
 
 ```js
 const awsConfig = {
-  profile: awsProfile, // AWS profile object
-  region: awsRegion, // AWS region
-  scheduleTable: awsDynamoDbScheduleMeta // DynamoDB table where the jobs will be stored
+  profile: '', // AWS profile
+  region: '', // AWS region
+  scheduleTable: '' // DynamoDB table where the jobs will be stored
 }
 
 const agenda = new Agenda(awsConfig);
